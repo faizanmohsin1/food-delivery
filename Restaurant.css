@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(font/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+* {
+    font-family: josefin;
+}
+
+.nav-link span {
+    color: #a87f34;
+    transition: 0.2s;
+    height: 20px;
+}
+
+.nav-link span:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* .nav-link {
+    font-family: josefin;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: uppercase;
+} */
+
+.form-control-file {
+    background-color: #a87f34;
+    color: black;
+}
+
+.btn {
+    border: 2px solid #a87f34;
+    background-color: transparent;
+    color: #000000;
+    font-family: josefin;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #a87f34;
+    border: 2px solid #a87f34;
+}
+
+@font-face {
+    font-family: 'josefin';
+    src: url(../font/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+
+* {
+    font-family: josefin;
+}
+
+.btn {
+    border: 2px solid #a87f34;
+    background-color: transparent;
+    color: #000000;
+    font-family: josefin;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #a87f34;
+    border: 2px solid #a87f34;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1468071174046-657d9d351a40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.row {
+    background-color: rgba(255, 255, 255, 0.459);
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    background-color: rgb(22, 22, 22);
+}
+
